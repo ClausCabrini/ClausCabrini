@@ -1,0 +1,35 @@
+@media (orientation: landscape) {
+
+    .display-table-rule {
+        display: block;
+    }
+
+    .display-cards-rule {
+        display: none;
+    }
+
+    .display-landscape-attachments-rule {
+        display: block;
+    }
+
+    .display-landscape-attachments-rule {
+        display: none;
+    }
+
+    .div-sx, .div-dx {
+        height: 100%;
+    }
+
+    .document-metadata-info {
+        border-right: 1px solid var(--bs-secondarydarker);
+    }
+
+    .mock-oo-land {
+        display: block;
+    }
+
+    .mock-oo-port {
+        display: none;
+    }
+
+}

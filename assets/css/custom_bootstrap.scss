@@ -1,0 +1,32 @@
+$theme-colors: (
+  "primary": #5A9CBC,
+  "secondary": #D9D9D9,
+  "primarylight": #E2E9F1,
+  "primarydark": #467B9D,
+  "secondarylight": #EEEEEE,
+  "secondarydark": #6E7176,
+  "secondarydarker": #484B50,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #212529
+);
+
+:root {
+  --primarylight: #E2E9F1;
+  --primarydark: #467B9D;
+  --primaryshadow-light: rgba(90, 156, 188, .25);
+  --primaryshadow: rgba(90, 156, 188, .75);
+  --primaryshadow-dark: rgba(90, 156, 188, 1);
+  --secondary-light: #EEEEEE;
+  --secondary-dark: #6E7176;
+  --secondary-darker: #484B50;
+  --appunto-informatizzato: #31A928;
+  --appunto-informatizzato-bg: rgba(49, 169, 40, .25);
+
+  --heigth-minus-header: calc(100vh - 4rem);
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
